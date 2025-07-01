@@ -36,3 +36,22 @@ console.log(str6);
 let str7 = "Hello";
 let newStr = "Y" + str7.slice(1);  // "Yello"
 console.log(newStr); 
+//trim removes all whitespaces at start or end
+let str8="     E N E M Y     ";
+console.log(str8.trim());
+//slice it slice an string with a starting and ending
+let str9 = "Hello";
+let sliceSTr = str9.slice(1,4);//ending index is inenclusive
+console.log(sliceSTr) ;
+//concat to join 2 strings + is also used 
+let resStr=str9.concat(str8)+" How are you?";
+console.log(resStr) ;
+//replace : it only replace 1st occurence for multiple use replace all
+let resReplace=str9.replace("llo","lp");
+console.log(resReplace);
+//char at returns char at that index
+console.log(resReplace.charAt(1));
+//practice question
+let userName =prompt("Enter your name : ");
+userName="@"+userName+userName.length;
+console.log(userName);
