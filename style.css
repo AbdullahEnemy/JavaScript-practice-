@@ -1,10 +1,36 @@
 body{
     background-color: blueviolet;
-    color: red;
+    color: black;
 }
 h1{
     color: rgb(46, 11, 11);
     text-decoration: line-through;
     justify-content: center;
     visibility: hidden;
+ }
+ #box{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(211, 127, 25);
+ }
+ #btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+ #con{
+    align-items: center;
+ }
+ #con2{
+        width: 120px;
+   
+    display: flex;
+    justify-content: center;
+     align-items: center;
  }

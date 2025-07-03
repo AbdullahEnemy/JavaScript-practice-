@@ -16,12 +16,43 @@ console.log(window.document.body);
  let allparas=document.querySelectorAll("p");
 console.log(elements.innerText);
 let btn=document.getElementById("btn");
-btn.addEventListener("click",()=>{
-    elements.innerText="ok enemy helped you";
-    
-    console.log(elements.innerText);
-})
 let heading2=document.getElementById("heading2");
 heading2.innerText=heading2.innerText+" Ok enemy thanks";
 
- 
+let div=document.getElementById("box");
+let id=div.getAttribute("id");
+div.setAttribute("class","box")
+console.log(div);
+console.log(div.style);
+let countr=0;
+let countl=0;
+let right=document.getElementById("right");
+let left=document.getElementById("left");
+let btn2=document.getElementById("btn2");
+btn.addEventListener("click",()=>{
+    countr++;
+right.innerText = `right : ${countr}  `.padEnd(10, ' ');
+
+div.style.backgroundColor="green";
+
+})
+btn2.addEventListener("click",()=>{
+    countl++;
+left.innerText=`left : ${countl}`;
+div.style.backgroundColor="purple";
+
+})
+//adding new element 
+let newBtn=document.createElement("button");
+newBtn.innerText="clickMe!"; 
+let divv=document.getElementById("divv");
+//add to end
+divv.append(newBtn);
+//add to start
+divv.prepend(newBtn)
+//before 
+divv.before(newBtn);
+//after
+divv.after(newBtn)
+//delete
+newBtn.remove();
