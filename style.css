@@ -1,0 +1,10 @@
+body{
+    background-color: blueviolet;
+    color: red;
+}
+h1{
+    color: rgb(46, 11, 11);
+    text-decoration: line-through;
+    justify-content: center;
+    visibility: hidden;
+ }
