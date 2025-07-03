@@ -56,3 +56,10 @@ divv.before(newBtn);
 divv.after(newBtn)
 //delete
 newBtn.remove();
+let newBtn2=document.createElement("button");
+newBtn2.style.color="white";
+newBtn2.style.backgroundColor="red";
+newBtn2.innerText="click me";
+let body=document.body;
+body.prepend(newBtn2);
+//div.classlist.append(classname)//this is use to add morethen one classes to a div
