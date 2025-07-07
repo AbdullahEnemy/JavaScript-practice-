@@ -105,4 +105,3 @@ let admin =new Admin("admin","admin@gmail.com");
 admin.displayInfo();
 admin.editData("Admin on the duty");
 newUser.displayData();
-
