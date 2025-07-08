@@ -79,3 +79,6 @@ const sumofArr=numArr.reduce((res,cur)=>{return res+cur});
 const productofArr=numArr.reduce((res,cur)=>{return res*cur});
 console.log(sumofArr);
 console.log(productofArr);
+const names="abdullah,fayyaz,zain,taha";
+const namesArr=names.split(",");
+console.log(namesArr)
