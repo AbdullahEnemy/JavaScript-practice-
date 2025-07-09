@@ -81,4 +81,4 @@ console.log(sumofArr);
 console.log(productofArr);
 const names="abdullah,fayyaz,zain,taha";
 const namesArr=names.split(",");
-console.log(namesArr)
+console.log(namesArr);
