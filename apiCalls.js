@@ -2,7 +2,7 @@
 //it uses request and response objects.
 //the fetch() method is used to fetch a resourse (data )
 //api->Application programming interface
-const apiKey="ec6a4719ec15c362c2c12b6d90ee1f57";
+const apiKey="";//Add your api key
 let countryCode="PK";
 let limit=5;
 let cityName="Lahore";
